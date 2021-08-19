@@ -1,0 +1,80 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+.tabs-holder {
+	width: 100%;
+	background-color: red;
+}
+.tab {
+	padding: 20px;
+	width: 100%;
+	height: 85vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	background-color: rgb(14, 14, 14);
+	color: white;
+}
+.tab h1 {
+	font-weight: 900;
+	font-size: 50px;
+	text-align: center;
+}
+.tab p {
+	width: 80%;
+	text-align: center;
+	letter-spacing: 1px;
+	color: #f0eeffd5;
+	font-weight: 500;
+	font-size: 25px;
+}
+.tab a {
+	text-decoration: none;
+	width: 180px;
+	height: 40px;
+	background-color: #5a4fcf;
+	display: grid;
+	place-items: center;
+	color: white;
+	font-weight: 600;
+	letter-spacing: 2px;
+	transition: all 0.5s ease;
+}
+.tab a:hover {
+	background-color: #4d40e4;
+}
+.buttons-holder {
+	width: 70%;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.splide__arrow svg {
+    width: 2.5em;
+    height: 2.5em;
+}
+@media (max-width: 500px) {
+	.tab h1 {
+		font-weight: 900;
+		font-size: 30px;
+	}
+	.tab p {
+		width: 85%;
+
+		font-size: 19px;
+	}
+	.tab a {
+		width: 130px;
+		height: 35px;
+		font-size: 15px;
+	}
+	.buttons-holder {
+        width: 80%;
+        height:25%;
+        flex-wrap: wrap;
+            width:100%;
+	}
+}
